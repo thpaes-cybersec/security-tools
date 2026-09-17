@@ -10,7 +10,7 @@ int main(void){
     char ip[100];
     float ver = 1.1;
     char command[500] = "";
-    char porta_texto[20];
+    char porta_text[20];
 
     printf("Port Scanning - By thpaes.cybersec\n");
     printf("Scan version: %.1f \n",ver);
@@ -27,14 +27,14 @@ int main(void){
             break;
         }
 
-        snprintf(porta_texto, sizeof(porta_texto), " %d", port[total_ports]); // Aqui eu estou gravando os valores das portas com um espaço intencional.
+        snprintf(porta_text, sizeof(porta_text), " %d", port[total_ports]); // Aqui eu estou gravando os valores das portas com um espaço intencional.
 
-        strcat(command,porta_texto); // strcat unindo os pedaços do comando final gravado na variável command.
+        strcat(command,porta_text); // strcat unindo os pedaços do comando final gravado na variável command.
 
         total_ports++; // Aqui a funçao while retorna ao começo para o armazenamento de mais portas.
     }
 
-    if (total_ports == 0){ // Verifica o valor escrito na variável total_ports e se for zero, fecha o programa.
+    if (total_ports == 0){ // Verifica o valor escrito na variável total_p orts e se for zero, fecha o programa.
         printf("No ports to scan, exiting.");
         return 0;
     }
