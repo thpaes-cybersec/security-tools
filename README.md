@@ -8,7 +8,7 @@ The goal of this repository is to practice programming, explore different langua
 
 ### C
 
-- [Port Scanner](./c/port-scanner/port_scanner.c) — Simple TCP port scanner.
+- [Port Scanner](./c/port_scanner/port_scanner.c) — Simple TCP port scanner.
 
 ## Languages
 
