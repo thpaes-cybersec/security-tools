@@ -2,12 +2,13 @@
 
 A simple TCP port scanner written in C.
 
-## Purpose
+## About
 
-This tool was developed as a learning project to practice C programming, networking and basic socket concepts.
+This project was developed as part of my studies in C programming, networking and cybersecurity.
 
-## Usage
+The goal is to understand how TCP connections and port scanning work at a low level.
+
+## Build
 
 ```bash
-gcc port_scanner.c -o port_scanner
-./port_scanner
+gcc src/port_scanner.c -o src/port_scanner
