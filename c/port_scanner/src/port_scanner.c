@@ -12,7 +12,7 @@ int main(void){
     char command[500] = "";
     char porta_text[20];
 
-    printf("Port Scanning - By thpaes.cybersec\n");
+    printf("Port Scanner - By thpaes.cybersec\n");
     printf("Scan version: %.1f \n",ver);
     printf("Type the host: ");
     scanf("%99s",ip);
